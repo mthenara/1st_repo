@@ -30,6 +30,7 @@ window.onload = function () {
   document.getElementById("greeting").textContent = "Nama telah dihapus.";
   document.getElementById("nameInput").value = "";
 }*/
+
 function goToPage2() {
   window.location.href = "page2.html";
 }
