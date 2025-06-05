@@ -32,5 +32,7 @@ window.onload = function () {
 }*/
 
 function goToPage2() {
+  console.log("Tombol ke halaman 2 diklik!");
   window.location.href = "page2.html";
 }
+
