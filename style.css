@@ -32,3 +32,17 @@ footer {
   text-align: center;
   padding: 1em;
 }
+button {
+  margin-top: 1em;
+  padding: 0.5em 1em;
+  font-size: 1em;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-right: 0.5em;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
