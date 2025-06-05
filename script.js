@@ -1,4 +1,5 @@
 console.log("Website berhasil dimuat !");
+
 function sayHello() {
   const name = document.getElementById("nameInput").value.trim();
   const greeting = document.getElementById("greeting");
