@@ -25,3 +25,8 @@ window.onload = function () {
     document.getElementById("nameInput").value = savedName;
   }
 };
+function resetName() {
+  localStorage.removeItem("namaPengguna");
+  document.getElementById("greeting").textContent = "Nama telah dihapus.";
+  document.getElementById("nameInput").value = "";
+}
