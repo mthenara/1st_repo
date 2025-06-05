@@ -1,1 +1,1 @@
-console.log("Website berhasil dimuat!");
+console.log("Website berhasil dimuat !");
