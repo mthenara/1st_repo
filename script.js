@@ -25,11 +25,11 @@ window.onload = function () {
     document.getElementById("nameInput").value = savedName;
   }
 };
-function resetName() {
+/*function resetName() {
   localStorage.removeItem("namaPengguna");
   document.getElementById("greeting").textContent = "Nama telah dihapus.";
   document.getElementById("nameInput").value = "";
-}
+}*/
 function goToPage2() {
   window.location.href = "page2.html";
 }
